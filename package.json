@@ -1,0 +1,13 @@
+{
+  "name": "reflect-metadata-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "scripts": {
+    "live":"tsc -w",
+    "start":"node dist/index"
+  }
+}
